@@ -1,0 +1,105 @@
+
+#presentation {
+    padding: 100px 10px;
+}
+@media all and (max-width: 500px) {
+    #presentation {
+        padding: 30px 10px;
+    }
+}
+
+.title-bannière {
+    font-family: poppins;
+    font-size: 35px;
+}
+
+.banniere-paragrahe {
+    font-size: 22px;
+}
+
+.max-pic-about {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+@media all and (max-width: 768px) {
+    .title-bannière {
+        font-size: 20px;
+    }
+
+    .banniere-paragrahe {
+        font-size: 17px;
+    }
+}
+
+
+
+.carte-1 {
+    max-height: 300px;
+    object-fit: cover;
+    
+}
+
+.my-gr-raduis, .my-pt-raduis {
+    border-radius: 40px;
+}
+
+.black {
+    background-color: black;
+}
+
+.cita {
+    font-size: 22px;
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .my-gr-raduis {
+        border-radius: 25px;
+    }
+
+    .my-pt-raduis {
+        border-radius: 15px;
+    }
+}
+
+.onze {
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: poppins;
+}
+
+.line {
+    height: 120px;
+    width: 1px;
+    background-color: lightgray;
+}
+
+/*  */
+.scale {
+    transition:scale 1s; 
+}
+
+.scale:hover {
+    scale: 1.1;  
+    z-index: 10;  
+}
+
+.zindex {
+    z-index: 12; 
+}
+
+@media only screen and (max-width: 768px) {
+    .my-gr-raduis {
+        border-radius: 25px;
+    }
+
+    .my-pt-raduis {
+        border-radius: 15px;
+    }
+    .scale:hover {
+        scale: 1;
+    }
+}
