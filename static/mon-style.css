@@ -40,9 +40,9 @@
     
 }
 
-.my-gr-raduis, .my-pt-raduis {
+/* .my-gr-raduis, .my-pt-raduis {
     border-radius: 40px;
-}
+} */
 
 .black {
     background-color: black;
@@ -55,7 +55,7 @@
 
 
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .my-gr-raduis {
         border-radius: 25px;
     }
@@ -63,7 +63,7 @@
     .my-pt-raduis {
         border-radius: 15px;
     }
-}
+} */
 
 .onze {
     font-size: 80px;
